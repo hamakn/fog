@@ -56,7 +56,8 @@ module Fog
             'hostid'            => host_id,
             'ipaddress'         => ip_address,
             'iptonetworklist'   => ip_to_network_list,
-            'projectid'         => project_id
+            'projectid'         => project_id,
+            'name'              => name, # Added for Cloudn
           }
 
           options.merge!('networkids' => network_ids) if network_ids
